@@ -1,0 +1,347 @@
+{
+  "official_export_source": "C:\\Users\\oljisfcy\\Documents\\ChatGPT\\Besiege\\mission_s02\\payload30_root_20261113\\machines\\S7_Lattice64_Root30_261113_204417",
+  "native_payload_weight": 30.0,
+  "native_carrier_weight": 32.65,
+  "native_total_weight": 62.65,
+  "roles": {
+    "payload_guids": [
+      "232d85ad-537c-4d09-a972-e23487fccd76",
+      "564c9a72-d8ac-4b45-a398-1c1ece0d94c8",
+      "c4e518cf-80f9-4e6d-90d1-3d287a957dc0",
+      "b473a184-d60c-4e38-88f5-b5546e93066d",
+      "1b411424-8872-4c1f-a175-1f596d8b93e0",
+      "06cd725b-db9b-4d8e-9d4c-224e6b41cc01",
+      "6f538c75-1ad8-4b6f-ad20-c3aa80590480",
+      "5c843976-283e-418c-91f5-2a985953da6f",
+      "918e16a6-0460-437b-b1dc-6313cef19e81",
+      "7403841f-e1e8-4dd5-89ac-0461a9fa6180",
+      "8069385e-96d7-4ee2-aded-f1b7508794cf",
+      "54c97e96-9e61-4f9f-81d1-b5d267f3f8e8",
+      "e7e5b8f4-8dd6-4565-97c2-2cf666e91163",
+      "9c26510f-7ab5-4b84-9a4d-ffd1fdb0739a",
+      "506a51c8-87b6-428a-b360-73ccbc1cf77f",
+      "e811d4be-9fe2-4524-a038-1f1894ad7e0c"
+    ],
+    "payload_reference_guid": "232d85ad-537c-4d09-a972-e23487fccd76",
+    "carrier_reference_guid": "c1358561-f330-4768-80d4-5b86fb57f319",
+    "release_guids": [
+      "31fd54b0-80f1-4d42-a44e-bf7613cac7ff"
+    ],
+    "carrier_attitude_offset_xyzw": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "geometry": {
+    "0": {
+      "colliders": {
+        "c0": {
+          "type": "box",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1,
+            1,
+            1
+          ],
+          "gameobject_name": "StartingBlock",
+          "transform_path": "StartingBlock",
+          "tag": "Untagged",
+          "layer": 12,
+          "layer_name": "AddPoint",
+          "is_trigger": false,
+          "enabled": true,
+          "behaviour_types": [
+            "SourceBlock",
+            "MyBounds",
+            "BlockVisualController",
+            "IceTag"
+          ],
+          "local_position": [
+            0,
+            0,
+            0
+          ],
+          "local_rotation": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "local_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "collider_outer_radius": 0.8660254037844386,
+      "controller_outer_radius": 2.8660254037844384
+    },
+    "1": {
+      "colliders": {
+        "c2": {
+          "type": "box",
+          "center": [
+            0,
+            2.05999994,
+            0
+          ],
+          "size": [
+            1,
+            1,
+            1
+          ],
+          "gameobject_name": "BrokenVisTop",
+          "transform_path": "DoubleWoodenBlock/BrokenVisTop",
+          "tag": "Untagged",
+          "layer": 14,
+          "layer_name": "AddPoint2",
+          "is_trigger": false,
+          "enabled": true,
+          "behaviour_types": [],
+          "local_position": [
+            0,
+            -7.10542736e-15,
+            0.500000179
+          ],
+          "local_rotation": [
+            0.707106829,
+            0.707106829,
+            0,
+            0
+          ],
+          "local_scale": [
+            0.5,
+            0.500000119,
+            0.500000119
+          ]
+        },
+        "c3": {
+          "type": "box",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            0.949999988,
+            0.949999988,
+            1.00999999
+          ],
+          "gameobject_name": "Joint1",
+          "transform_path": "DoubleWoodenBlock/Joint1",
+          "tag": "Untagged",
+          "layer": 12,
+          "layer_name": "AddPoint",
+          "is_trigger": false,
+          "enabled": true,
+          "behaviour_types": [],
+          "local_position": [
+            0,
+            0,
+            0.5
+          ],
+          "local_rotation": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "local_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "c4": {
+          "type": "box",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            0.949999988,
+            0.949999988,
+            1.00999999
+          ],
+          "gameobject_name": "Joint",
+          "transform_path": "DoubleWoodenBlock/Joint",
+          "tag": "Untagged",
+          "layer": 14,
+          "layer_name": "AddPoint2",
+          "is_trigger": false,
+          "enabled": true,
+          "behaviour_types": [],
+          "local_position": [
+            0,
+            0,
+            1.5
+          ],
+          "local_rotation": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "local_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "collider_outer_radius": 2.3404016798828997,
+      "controller_outer_radius": 4.3404016798829
+    },
+    "36": {
+      "colliders": {
+        "c0": {
+          "type": "sphere",
+          "center": [
+            0.0127973743,
+            0.00600000005,
+            0.995067775
+          ],
+          "radius": 0.835689604,
+          "gameobject_name": "Boulder",
+          "transform_path": "Boulder",
+          "tag": "Untagged",
+          "layer": 0,
+          "layer_name": "Default",
+          "is_trigger": false,
+          "enabled": true,
+          "behaviour_types": [
+            "BlockBehaviour",
+            "MyBounds",
+            "BlockVisualController",
+            "BreakOnForceBoulder"
+          ],
+          "local_position": [
+            0,
+            0,
+            0
+          ],
+          "local_rotation": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "local_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "collider_outer_radius": 1.830857755436241,
+      "controller_outer_radius": 3.830857755436241
+    },
+    "7": {
+      "colliders": {},
+      "controller_outer_radius": 10.0,
+      "note": "Connector endpoints separately bounded from native BSG; see per-block bounds."
+    },
+    "86": {
+      "colliders": {
+        "c2": {
+          "type": "capsule",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "radius": 0.25999999,
+          "height": 1.29999995,
+          "direction": 0,
+          "gameobject_name": "Wheel",
+          "transform_path": "SkateWheel/Wheel",
+          "tag": "BlockVis",
+          "layer": 25,
+          "layer_name": "MachineVis",
+          "is_trigger": false,
+          "enabled": true,
+          "behaviour_types": [
+            "cakeslice.Outline"
+          ],
+          "local_position": [
+            0,
+            0,
+            0
+          ],
+          "local_rotation": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "local_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "collider_outer_radius": 0.649999975,
+      "controller_outer_radius": 2.649999975
+    },
+    "27": {
+      "colliders": {
+        "c0": {
+          "type": "box",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1.00000012,
+            1,
+            1
+          ],
+          "gameobject_name": "Joint",
+          "transform_path": "Grabber/Joint",
+          "tag": "Untagged",
+          "layer": 0,
+          "layer_name": "Default",
+          "is_trigger": false,
+          "enabled": true,
+          "behaviour_types": [],
+          "local_position": [
+            0,
+            0,
+            0.5
+          ],
+          "local_rotation": [
+            0.707107842,
+            0.707105815,
+            0,
+            0
+          ],
+          "local_scale": [
+            1,
+            1.00000024,
+            1.00000024
+          ]
+        }
+      },
+      "collider_outer_radius": 1.3660255769895209,
+      "controller_outer_radius": 3.3660255769895207
+    }
+  },
+  "geometry_source": "C:\\Users\\oljisfcy\\Documents\\ChatGPT\\Besiege\\BuildArena-2.0\\.local\\collider_dump.toml",
+  "official_mass": null,
+  "official_center_verified": false,
+  "hashes": {
+    "machine.bsg": "9b0944ec8c2b169041f9109883a1d225aaa6d9bd5b7636f194fc8861674cef51",
+    "build_history.json": "ca67ed912d057d9c3d19c07f047f47bcd87519db86abe65f6bd607b1f74c397d",
+    "build_history_full.json": "311a1067c15e1b7ce98377070cea0ccf193a289e6b1b1aacbb4bdfe9eeb94018"
+  }
+}

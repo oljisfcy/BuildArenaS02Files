@@ -1,0 +1,26 @@
+[
+  {
+    "run": "lattice_powered_v11",
+    "run_id": "daebef0f-0d97-4573-ba43-bd1ca6347152",
+    "local_mission_pass": true,
+    "source_binding_pass": true,
+    "payload_orbits": 3.0158840016629003,
+    "minimum_whole_payload_radius": 1468.4435531427214,
+    "landing_error": 0.31823741728111676,
+    "whole_body_clearance_bound": 5.282866322080075,
+    "stationary_carrier_parts": 123,
+    "all_post_landing_controls_zero": true
+  },
+  {
+    "run": "packaged_repeat_v11_retry",
+    "run_id": "11127990-9747-4716-9cd5-9538189f1241",
+    "local_mission_pass": true,
+    "source_binding_pass": true,
+    "payload_orbits": 3.0199855508837894,
+    "minimum_whole_payload_radius": 1511.0217021357957,
+    "landing_error": 0.7579251284685943,
+    "whole_body_clearance_bound": 34.936408822181534,
+    "stationary_carrier_parts": 123,
+    "all_post_landing_controls_zero": true
+  }
+]

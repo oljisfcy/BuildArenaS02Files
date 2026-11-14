@@ -1,0 +1,97 @@
+{
+  "0": {
+    "block": "StartingBlock",
+    "mesh": "D:\\SteamLibrary\\steamapps\\common\\Besiege\\Besiege_Data\\Skins\\Template\\StartingBlock\\StartingBlock.obj",
+    "mesh_sha256": "c7677a8979097f99b1598bc5b9179db2ce74406ce79a0d6efe1a2a5f02a6ec28",
+    "visual_bounds": [
+      {
+        "visual": "v0",
+        "outer_radius": 0.8000957314628826,
+        "method": "triangle inequality over all default OBJ vertices"
+      }
+    ],
+    "maximum_mesh_radius": 0.8000957314628826,
+    "controller_radius": 2.8660254037844384,
+    "covered": true
+  },
+  "1": {
+    "block": "DoubleWoodenBlock",
+    "mesh": "D:\\SteamLibrary\\steamapps\\common\\Besiege\\Besiege_Data\\Skins\\Template\\DoubleWoodenBlock\\DoubleWoodenBlock.obj",
+    "mesh_sha256": "32af7e85d1fa58c685f2e443e0c684bc97780fbc5b4eb1e56ed627280bb4b274",
+    "visual_bounds": [
+      {
+        "visual": "v0",
+        "outer_radius": 2.1822452994641197,
+        "method": "triangle inequality over all default OBJ vertices"
+      },
+      {
+        "visual": "v1",
+        "outer_radius": 2.1822452994641197,
+        "method": "triangle inequality over all default OBJ vertices"
+      },
+      {
+        "visual": "v2",
+        "outer_radius": 2.1822452994641197,
+        "method": "triangle inequality over all default OBJ vertices"
+      },
+      {
+        "visual": "v3",
+        "outer_radius": 2.18224547846412,
+        "method": "triangle inequality over all default OBJ vertices"
+      },
+      {
+        "visual": "v4",
+        "outer_radius": 3.3644898472799705,
+        "method": "triangle inequality over all default OBJ vertices"
+      }
+    ],
+    "maximum_mesh_radius": 3.3644898472799705,
+    "controller_radius": 4.3404016798829,
+    "covered": true
+  },
+  "27": {
+    "block": "Grabber",
+    "mesh": "D:\\SteamLibrary\\steamapps\\common\\Besiege\\Besiege_Data\\Skins\\Template\\Grabber\\grabber.obj",
+    "mesh_sha256": "b8118f799b6835cc83e60c8465d1e08461a51909e70c23f721b6da150872ac0f",
+    "visual_bounds": [
+      {
+        "visual": "v1",
+        "outer_radius": 1.8210226222290276,
+        "method": "triangle inequality over all default OBJ vertices"
+      }
+    ],
+    "maximum_mesh_radius": 1.8210226222290276,
+    "controller_radius": 3.3660255769895207,
+    "covered": true
+  },
+  "36": {
+    "block": "Boulder",
+    "mesh": "D:\\SteamLibrary\\steamapps\\common\\Besiege\\Besiege_Data\\Skins\\Template\\Boulder\\boulder.obj",
+    "mesh_sha256": "44ba0d85e98a24eb2f77b9ba87afff7d2c0e66899dd9cd2157a93764e8a5bfe4",
+    "visual_bounds": [
+      {
+        "visual": "v0",
+        "outer_radius": 1.9090001154319052,
+        "method": "triangle inequality over all default OBJ vertices"
+      }
+    ],
+    "maximum_mesh_radius": 1.9090001154319052,
+    "controller_radius": 3.830857755436241,
+    "covered": true
+  },
+  "86": {
+    "block": "SkateWheel",
+    "mesh": "D:\\SteamLibrary\\steamapps\\common\\Besiege\\Besiege_Data\\Skins\\Template\\SkateWheel\\roller_truck.obj",
+    "mesh_sha256": "6c18dc9cf5a7f290361d9de1b7e703309e933285983a1133f14c36f1312b66cd",
+    "visual_bounds": [
+      {
+        "visual": "v0",
+        "outer_radius": 0.7379252041197006,
+        "method": "triangle inequality over all default OBJ vertices"
+      }
+    ],
+    "maximum_mesh_radius": 0.7379252041197006,
+    "controller_radius": 2.649999975,
+    "covered": true
+  }
+}

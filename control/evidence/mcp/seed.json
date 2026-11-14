@@ -1,0 +1,11 @@
+[
+ {"name":"create_machine_lifespan","arguments":{"machine_name":"S7_PayloadRoot_Seed","note":"Starting Block belongs to passive payload; carrier uses separate predeclared reference."}},
+ {"name":"start","arguments":{"init_rotation":[0,-90,0],"note":"Payload root: no active guidance or propulsion after separation."}},
+ {"name":"attach_block_to","arguments":{"base_block":1,"face":"f0","new_block":"Double Wooden Block","note":"Payload arm, native weight 0.5."}},
+ {"name":"get_block_details","arguments":{"block_id":2}},
+ {"name":"attach_block_to","arguments":{"base_block":1,"face":"f5","new_block":"Decoupler","note":"Carrier-side separation device; not counted as payload."}},
+ {"name":"get_block_details","arguments":{"block_id":3}},
+ {"name":"attach_block_to","arguments":{"base_block":3,"face":"f0","new_block":"Single Wooden Block","note":"Carrier forebody; native orientation will be audited."}},
+ {"name":"get_block_details","arguments":{"block_id":4}},
+ {"name":"close_machine_lifespan","arguments":{}}
+]

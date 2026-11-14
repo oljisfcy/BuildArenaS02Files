@@ -1,0 +1,10 @@
+{
+  "usable": false,
+  "reason": "Official screen capture shows the same prelaunch scene at 30 s and 300 s despite independent telemetry confirming flight. Excluded from submission video.",
+  "duration_seconds": 548.04,
+  "frame_hashes": {
+    "30": "938bea5a8ef82da1466d90d611f901fe80e7ef73341e3de41d185e7bd68cf97b",
+    "300": "78958f0f1fc3780a17a1aaa06f4296ff06354834d78a216ebb18668c3f86d6a7"
+  },
+  "raw_video_preserved": "C:\\Users\\oljisfcy\\Documents\\ChatGPT\\Besiege\\mission_s02\\payload30_root_20261113\\runs\\packaged_repeat_v11_retry\\run.mp4"
+}

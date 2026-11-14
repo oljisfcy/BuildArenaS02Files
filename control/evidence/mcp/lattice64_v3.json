@@ -1,0 +1,1309 @@
+[
+  {
+    "name": "create_machine_lifespan",
+    "arguments": {
+      "machine_name": "S7_Lattice64_Root30",
+      "note": "Compact braced passive root payload, native weight 30."
+    }
+  },
+  {
+    "name": "load_machine_from_history",
+    "arguments": {
+      "history_json": "C:\\Users\\oljisfcy\\Documents\\ChatGPT\\Besiege\\mission_s02\\payload30_root_20261113\\machines\\S7_PayloadRoot_Seed_261113_200946\\S7_PayloadRoot_Seed_261113_200946.json"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 2,
+      "face": "f9",
+      "new_block": "Grabber",
+      "note": "Passive payload internal restraint, never commanded."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 5,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Native payload weight 5."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f1",
+      "new_block": "Grabber",
+      "note": "Passive payload internal restraint, never commanded."
+    }
+  },
+  {
+    "name": "shift_block",
+    "arguments": {
+      "block_id": 7,
+      "shift_real": [
+        -0.03,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 7,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Native payload weight 5."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f2",
+      "new_block": "Grabber",
+      "note": "Passive payload internal restraint, never commanded."
+    }
+  },
+  {
+    "name": "shift_block",
+    "arguments": {
+      "block_id": 9,
+      "shift_real": [
+        0,
+        -0.03,
+        0
+      ]
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 9,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Native payload weight 5."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f3",
+      "new_block": "Grabber",
+      "note": "Passive payload internal restraint, never commanded."
+    }
+  },
+  {
+    "name": "shift_block",
+    "arguments": {
+      "block_id": 11,
+      "shift_real": [
+        0,
+        0.03,
+        0
+      ]
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 11,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Native payload weight 5."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f4",
+      "new_block": "Grabber",
+      "note": "Passive payload internal restraint, never commanded."
+    }
+  },
+  {
+    "name": "shift_block",
+    "arguments": {
+      "block_id": 13,
+      "shift_real": [
+        0,
+        0,
+        0.03
+      ]
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 13,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Native payload weight 5."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 2,
+      "face": "f2",
+      "new_block": "Skate Wheel",
+      "note": "Passive .25 weight; payload total remains 30."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 1,
+      "face_a": "f1",
+      "block_b": 2,
+      "face_b": "f9",
+      "connector": "Brace",
+      "note": "Payload root-to-arm reinforcement on native wooden colliders; no carrier connection."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 1,
+      "face_a": "f2",
+      "block_b": 2,
+      "face_b": "f7",
+      "connector": "Brace",
+      "note": "Payload root-to-arm reinforcement on native wooden colliders; no carrier connection."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 1,
+      "face_a": "f3",
+      "block_b": 2,
+      "face_b": "f8",
+      "connector": "Brace",
+      "note": "Payload root-to-arm reinforcement on native wooden colliders; no carrier connection."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 4,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 19,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 20,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 21,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 22,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 23,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 24,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 25,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 20,
+      "face": "f0",
+      "new_block": "Double Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 27,
+      "face": "f9",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 28,
+      "face": "f4",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 28,
+      "face": "f1",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 30,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 31,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 32,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 33,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 34,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 35,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 36,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 37,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 20,
+      "face": "f1",
+      "new_block": "Double Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 39,
+      "face": "f9",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 40,
+      "face": "f4",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 40,
+      "face": "f0",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 42,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 43,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 44,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 45,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 46,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 47,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 48,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 49,
+      "face": "f4",
+      "new_block": "Single Wooden Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 4,
+      "face": "f0",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 4,
+      "face": "f1",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 4,
+      "face": "f2",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 4,
+      "face": "f3",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 19,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 55,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 19,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 56,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 19,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 19,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 20,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 20,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 21,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 61,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 21,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 62,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 21,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 21,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 23,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 65,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 23,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 66,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 23,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 23,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 24,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 69,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 24,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 70,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 24,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 24,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 25,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 73,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 25,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 74,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 25,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 25,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 26,
+      "face": "f0",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 26,
+      "face": "f1",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 26,
+      "face": "f2",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 26,
+      "face": "f3",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 26,
+      "face": "f4",
+      "new_block": "Reaction Steering Block"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 30,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 30,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 31,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 31,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 32,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 32,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 32,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 88,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 32,
+      "face": "f0",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 33,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 33,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 34,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 34,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 34,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 94,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 35,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 35,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 35,
+      "face": "f0",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 36,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 36,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 36,
+      "face": "f1",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 100,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 37,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 37,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 38,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 38,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 38,
+      "face": "f0",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 42,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 42,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 43,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 43,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 44,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 44,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 44,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 112,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 44,
+      "face": "f1",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 45,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 45,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 46,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 46,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 46,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 118,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 47,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 47,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 47,
+      "face": "f1",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 48,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 48,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 48,
+      "face": "f0",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "twist_block",
+    "arguments": {
+      "block_id": 124,
+      "angle": 90
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 49,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 49,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 50,
+      "face": "f2",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 50,
+      "face": "f3",
+      "new_block": "Steering Thruster"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 50,
+      "face": "f1",
+      "new_block": "Wing"
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 4,
+      "face_a": "f0",
+      "block_b": 26,
+      "face_b": "f0",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 4,
+      "face_a": "f1",
+      "block_b": 26,
+      "face_b": "f1",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 4,
+      "face_a": "f2",
+      "block_b": 26,
+      "face_b": "f2",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 4,
+      "face_a": "f3",
+      "block_b": 26,
+      "face_b": "f3",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 30,
+      "face_a": "f0",
+      "block_b": 38,
+      "face_b": "f0",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 30,
+      "face_a": "f1",
+      "block_b": 38,
+      "face_b": "f1",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 42,
+      "face_a": "f0",
+      "block_b": 50,
+      "face_b": "f0",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 42,
+      "face_a": "f1",
+      "block_b": 50,
+      "face_b": "f1",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 26,
+      "face_a": "f0",
+      "block_b": 38,
+      "face_b": "f1",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "connect_blocks",
+    "arguments": {
+      "block_a": 26,
+      "face_a": "f1",
+      "block_b": 50,
+      "face_b": "f0",
+      "connector": "Brace",
+      "note": "Carrier-only short span support."
+    }
+  },
+  {
+    "name": "get_machine_summary",
+    "arguments": {}
+  },
+  {
+    "name": "close_machine_lifespan",
+    "arguments": {}
+  }
+]

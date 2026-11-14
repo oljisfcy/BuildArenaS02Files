@@ -1,0 +1,233 @@
+[
+  {
+    "run": "ascent_probe_v1",
+    "runner": {
+      "result": "failed"
+    }
+  },
+  {
+    "run": "ascent_probe_v2",
+    "controller": {
+      "stop_reason": "root_or_payload_lost"
+    },
+    "runner": {
+      "result": "ok"
+    }
+  },
+  {
+    "run": "ascent_probe_v3",
+    "controller": {
+      "stop_reason": "diagnostic_stop_requested"
+    },
+    "runner": {
+      "result": "ok"
+    }
+  },
+  {
+    "run": "compact_ascent_v1",
+    "controller": {
+      "stop_reason": "payload_assembly_fragmentation"
+    },
+    "runner": {
+      "result": "ok"
+    }
+  },
+  {
+    "run": "compact_ascent_v2",
+    "controller": {
+      "stop_reason": "payload_assembly_fragmentation"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 186.4765141921302,
+      "payload_orbits_to_endpoint": 0.0,
+      "minimum_payload_radius_lower_bound": null
+    }
+  },
+  {
+    "run": "compact_ascent_v3",
+    "controller": {
+      "stop_reason": "carrier_fragmentation"
+    },
+    "runner": {
+      "result": "ok"
+    }
+  },
+  {
+    "run": "lattice_ascent_v1",
+    "controller": {
+      "stop_reason": "carrier_fragmentation"
+    },
+    "runner": {
+      "result": "ok"
+    }
+  },
+  {
+    "run": "lattice_ascent_v2",
+    "controller": {
+      "stop_reason": "carrier_fragmentation"
+    },
+    "runner": {
+      "result": "ok"
+    }
+  },
+  {
+    "run": "lattice_ascent_v3",
+    "controller": {
+      "stop_reason": "diagnostic_stop_requested"
+    },
+    "runner": {
+      "result": "ok"
+    }
+  },
+  {
+    "run": "lattice_full_v4",
+    "runner": {
+      "result": "failed"
+    }
+  },
+  {
+    "run": "lattice_full_v4_retry",
+    "controller": {
+      "stop_reason": "diagnostic_stop_requested"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 6.307373604523211,
+      "payload_orbits_to_endpoint": 3.171978941857985,
+      "minimum_payload_radius_lower_bound": 1553.6440335001032
+    }
+  },
+  {
+    "run": "lattice_full_v5",
+    "controller": {
+      "stop_reason": "diagnostic_stop_requested"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 5.81868276278756,
+      "payload_orbits_to_endpoint": 2.046710167030902,
+      "minimum_payload_radius_lower_bound": 1585.749252156055
+    }
+  },
+  {
+    "run": "lattice_full_v6",
+    "controller": {
+      "stop_reason": "landing_error_exceeded"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 4.588151536016761,
+      "payload_orbits_to_endpoint": 0.8497595406025176,
+      "minimum_payload_radius_lower_bound": 1494.7860495239192
+    }
+  },
+  {
+    "run": "lattice_full_v7",
+    "controller": {
+      "stop_reason": "landing_error_exceeded"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 5.12540558243016,
+      "payload_orbits_to_endpoint": 0.7300310171938887,
+      "minimum_payload_radius_lower_bound": 1615.7110020058285
+    }
+  },
+  {
+    "run": "lattice_powered_v10",
+    "controller": {
+      "stop_reason": "diagnostic_stop_requested"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 39.67841102847474,
+      "payload_orbits_to_endpoint": 0.9954619976767083,
+      "minimum_payload_radius_lower_bound": 1705.7474424008578
+    }
+  },
+  {
+    "run": "lattice_powered_v11",
+    "controller": {
+      "stop_reason": "three_orbit_and_return_proxy_pass"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": true,
+      "landing_error": 0.31823741728111676,
+      "payload_orbits_to_endpoint": 3.0158840016629003,
+      "minimum_payload_radius_lower_bound": 1468.4435531427214
+    }
+  },
+  {
+    "run": "lattice_powered_v9",
+    "controller": {
+      "stop_reason": "diagnostic_stop_requested"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 4.856187155873217,
+      "payload_orbits_to_endpoint": 1.4623204369749505,
+      "minimum_payload_radius_lower_bound": 1734.4197788466915
+    }
+  },
+  {
+    "run": "lattice_terminal_v8",
+    "controller": {
+      "stop_reason": "landing_error_exceeded"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": false,
+      "landing_error": 63.11119412881742,
+      "payload_orbits_to_endpoint": 1.328087660736308,
+      "minimum_payload_radius_lower_bound": 1428.1978290210664
+    }
+  },
+  {
+    "run": "packaged_repeat_v11",
+    "runner": {
+      "result": "failed"
+    }
+  },
+  {
+    "run": "packaged_repeat_v11_retry",
+    "controller": {
+      "stop_reason": "three_orbit_and_return_proxy_pass"
+    },
+    "runner": {
+      "result": "ok"
+    },
+    "verification": {
+      "local_mission_pass": true,
+      "landing_error": 0.7579251284685943,
+      "payload_orbits_to_endpoint": 3.0199855508837894,
+      "minimum_payload_radius_lower_bound": 1511.0217021357957
+    }
+  }
+]

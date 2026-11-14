@@ -1,0 +1,3299 @@
+{
+  "scene_index": 13,
+  "scene_asset": "Assets/Scenes/SANDBOXES/LONE ORB.unity",
+  "level_attributes": {
+    "path_id": 57185,
+    "type": "MonoBehaviour",
+    "data": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 10683
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 16777216,
+        "m_PathID": 44191186944
+      },
+      "m_Name": "",
+      "levelId": -1,
+      "islandId": 0,
+      "levelNameLocalisationIndex": 5282,
+      "islandFinalLevel": 0,
+      "campaignFinalLevel": 0,
+      "sandBoxLevel": 1,
+      "floorHeight": -10000.0,
+      "spaceCameraDistance": 20.0,
+      "spaceCameraPower": 10.0,
+      "lensRain": 0,
+      "overlayRain": 0,
+      "rainDropParticles": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "rainOverlay": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "nextZoneText": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  },
+  "localization_file": "D:\\SteamLibrary\\steamapps\\common\\Besiege\\Besiege_Data\\Localisation Files\\English.txt",
+  "localization_line": "5282 = \"ASTRO PLAYGROUND\"",
+  "planets": [
+    {
+      "object_name": "(moon)",
+      "gravity_path_id": 55002,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 9335
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 1,
+        "interpolatedCenters": [],
+        "gravity": 22.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 1,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 620.0,
+        "platformThickness": 20.0,
+        "gravitationalRadius": 0.0,
+        "atmosphereRadius": 1100.0,
+        "effectRadius": 8192.0,
+        "atmosphereDensity": 0.800000011920929,
+        "atmosphereTemperature": 1.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 600.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 51438
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "UpdatePositionInSim": 0,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 9335
+          },
+          "m_LocalRotation": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5,
+            "w": 0.5
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": -600.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 600.0,
+            "y": 600.0,
+            "z": 600.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 27686
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21809
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25974
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27171
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22796
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21532
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27912
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26122
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 28404
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24685
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22536
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24034
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22814
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20972
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26982
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24009
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23398
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27283
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20903
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23414
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23147
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10597
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23305
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21394
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21221
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21146
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27269
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22047
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26902
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25215
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12256
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22662
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24426
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25718
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22075
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21840
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20785
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "Submoon",
+      "gravity_path_id": 55003,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 10108
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 0,
+        "interpolatedCenters": [],
+        "gravity": 20.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 1,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 120.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 0.0,
+        "atmosphereRadius": 150.0,
+        "effectRadius": 1500.0,
+        "atmosphereDensity": 0.25,
+        "atmosphereTemperature": 0.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 600.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 45430
+        },
+        "UpdatePositionInSim": 1,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10108
+          },
+          "m_LocalRotation": {
+            "x": -0.4224916696548462,
+            "y": 0.016220275312662125,
+            "z": 0.674297034740448,
+            "w": 0.6054431200027466
+          },
+          "m_LocalPosition": {
+            "x": 3064.995849609375,
+            "y": 167.99234008789062,
+            "z": 1995.00537109375
+          },
+          "m_LocalScale": {
+            "x": 100.0,
+            "y": 100.0,
+            "z": 100.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 27743
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27787
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21503
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26381
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24906
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24587
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 21622
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 9505
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 22480
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20987
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21976
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27564
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21072
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23309
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21977
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22212
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27880
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22875
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20979
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20941
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26290
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23592
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26486
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24581
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24493
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23900
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 28122
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24579
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23429
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23872
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22082
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26603
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27434
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24218
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21670
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24703
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26193
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27952
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22465
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26311
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23515
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21925
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27783
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21513
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21659
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22015
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21161
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 21772
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 9599
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 21622
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20693
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24528
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22986
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22319
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23062
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22527
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "doon",
+      "gravity_path_id": 55004,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 10110
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 0,
+        "interpolatedCenters": [],
+        "gravity": 50.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 75.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 0.0,
+        "atmosphereRadius": 250.0,
+        "effectRadius": 1400.0,
+        "atmosphereDensity": 1.0,
+        "atmosphereTemperature": 1.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 600.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 51439
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "UpdatePositionInSim": 0,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10110
+          },
+          "m_LocalRotation": {
+            "x": -0.22906991839408875,
+            "y": 0.05915951356291771,
+            "z": -0.10394925624132156,
+            "w": 0.9660339951515198
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 116.0,
+            "y": 116.00001525878906,
+            "z": 116.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 22883
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26679
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24235
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 24426
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 11685
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.5282205939292908,
+            "w": 0.8491072654724121
+          },
+          "m_LocalPosition": {
+            "x": -5188.0,
+            "y": 512.0,
+            "z": 837.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 21223
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22482
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26305
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23037
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21331
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27141
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23543
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27469
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27704
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27762
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24691
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21105
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25215
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12256
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22662
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24426
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25718
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22075
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21840
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20785
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "Ironmoon (1)",
+      "gravity_path_id": 55005,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 10145
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 0,
+        "interpolatedCenters": [],
+        "gravity": 18.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 20.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 20.0,
+        "atmosphereRadius": 0.0,
+        "effectRadius": 177.5,
+        "atmosphereDensity": 0.0,
+        "atmosphereTemperature": 0.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 600.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 51440
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 45431
+        },
+        "UpdatePositionInSim": 1,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10145
+          },
+          "m_LocalRotation": {
+            "x": -0.6483048796653748,
+            "y": -0.7477218508720398,
+            "z": 0.12231290340423584,
+            "w": 0.07518277317285538
+          },
+          "m_LocalPosition": {
+            "x": -4845.0,
+            "y": 456.0,
+            "z": 1242.0
+          },
+          "m_LocalScale": {
+            "x": 14.750006675720215,
+            "y": 14.750004768371582,
+            "z": 14.750012397766113
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 26952
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 21772
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 9599
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 21622
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20693
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24528
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22986
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22319
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23062
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22527
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "Planetary Ring Gravity",
+      "gravity_path_id": 55006,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 616
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 4,
+        "prime": 0,
+        "interpolatedCenters": [],
+        "gravity": 40.0,
+        "outerGravityScale": 0.75,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 433.70001220703125,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 32.0,
+        "atmosphereRadius": 32.0,
+        "effectRadius": 1000.0,
+        "atmosphereDensity": 0.0,
+        "atmosphereTemperature": 1.0,
+        "affectGravInfo": 1,
+        "affectCamera": 0,
+        "cameraRadiusBias": 100.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 44595
+        },
+        "UpdatePositionInSim": 0,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 616
+          },
+          "m_LocalRotation": {
+            "x": 0.02964189648628235,
+            "y": 0.8885248899459839,
+            "z": -0.4121541678905487,
+            "w": 0.19943393766880035
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 95.00003814697266,
+            "y": 95.0,
+            "z": 95.00006103515625
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 15029
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15027
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15026
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15025
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15024
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15023
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15022
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15021
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15020
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15019
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15018
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15017
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15016
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15015
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15014
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15013
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15012
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15011
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15010
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 15009
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 22662
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10242
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 3474.0,
+            "y": -92.0,
+            "z": 4807.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 28100
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24701
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27334
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22039
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25215
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12256
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22662
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24426
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25718
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22075
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21840
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20785
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "Ironmoon",
+      "gravity_path_id": 55007,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 10543
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 0,
+        "interpolatedCenters": [],
+        "gravity": 18.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 20.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 20.0,
+        "atmosphereRadius": 0.0,
+        "effectRadius": 177.5,
+        "atmosphereDensity": 0.0,
+        "atmosphereTemperature": 0.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 600.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 51441
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 45439
+        },
+        "UpdatePositionInSim": 1,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10543
+          },
+          "m_LocalRotation": {
+            "x": -0.6027607321739197,
+            "y": -0.7057573199272156,
+            "z": 0.14573241770267487,
+            "w": 0.3425613045692444
+          },
+          "m_LocalPosition": {
+            "x": -4835.0,
+            "y": 459.0,
+            "z": 1278.0
+          },
+          "m_LocalScale": {
+            "x": 14.75,
+            "y": 14.75,
+            "z": 14.75
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 26597
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 21772
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 9599
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 21622
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20693
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24528
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22986
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22319
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23062
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22527
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "Planet Saturn",
+      "gravity_path_id": 55008,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 11878
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 1,
+        "interpolatedCenters": [],
+        "gravity": 20.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 1,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 325.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 0.0,
+        "atmosphereRadius": 620.0,
+        "effectRadius": 2000.0,
+        "atmosphereDensity": 1.0,
+        "atmosphereTemperature": 1.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 600.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 51442
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "UpdatePositionInSim": 0,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 11878
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 200.0,
+            "y": 200.0,
+            "z": 200.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 25770
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27205
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22119
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25803
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 22662
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10242
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 3474.0,
+            "y": -92.0,
+            "z": 4807.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 28100
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24701
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27334
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22039
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25215
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12256
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22662
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24426
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25718
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22075
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21840
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20785
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "asteroid 1",
+      "gravity_path_id": 55009,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 12248
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 0,
+        "interpolatedCenters": [],
+        "gravity": 18.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 49.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 0.0,
+        "atmosphereRadius": 100.0,
+        "effectRadius": 1500.0,
+        "atmosphereDensity": 1.0,
+        "atmosphereTemperature": 1.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 80.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "UpdatePositionInSim": 0,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12248
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 40.0,
+            "y": 40.0,
+            "z": 40.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 25439
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27176
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23486
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20792
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25670
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22408
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24361
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25656
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 28130
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21138
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23038
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25961
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25112
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22071
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22885
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25718
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12615
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 609.0,
+            "y": -526.0,
+            "z": 5582.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 24583
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23921
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26039
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25206
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25215
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12256
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22662
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24426
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25718
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22075
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21840
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20785
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "asteroid 2",
+      "gravity_path_id": 55010,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 12878
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 0,
+        "interpolatedCenters": [],
+        "gravity": 18.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 0,
+        "blackHole": 0,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 35.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 0.0,
+        "atmosphereRadius": 60.0,
+        "effectRadius": 1500.0,
+        "atmosphereDensity": 1.0,
+        "atmosphereTemperature": 1.0,
+        "affectGravInfo": 1,
+        "affectCamera": 1,
+        "cameraRadiusBias": 100.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "UpdatePositionInSim": 0,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12878
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 121.0,
+            "y": 37.0,
+            "z": 127.0
+          },
+          "m_LocalScale": {
+            "x": 22.650789260864258,
+            "y": 22.65079116821289,
+            "z": 22.65079689025879
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23656
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23735
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22101
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24910
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25718
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12615
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 609.0,
+            "y": -526.0,
+            "z": 5582.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 24583
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23921
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26039
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25206
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25215
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12256
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22662
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24426
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25718
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22075
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21840
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20785
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    },
+    {
+      "object_name": "BlackHole",
+      "gravity_path_id": 55011,
+      "gravity": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 13068
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 16777216,
+          "m_PathID": 15401484288
+        },
+        "m_Name": "",
+        "gravityType": 0,
+        "prime": 1,
+        "interpolatedCenters": [],
+        "gravity": 100.0,
+        "outerGravityScale": 0.25,
+        "flatInBounds": 0,
+        "fadeOutToEffectRadius": 1,
+        "blackHole": 1,
+        "triggerCompletionOnBlackholeEnter": 0,
+        "planetRadius": 75.0,
+        "platformThickness": 0.0,
+        "gravitationalRadius": 0.0,
+        "atmosphereRadius": 100.0,
+        "effectRadius": 7000.0,
+        "atmosphereDensity": 10.0,
+        "atmosphereTemperature": 0.0,
+        "affectGravInfo": 1,
+        "affectCamera": 0,
+        "cameraRadiusBias": 600.0,
+        "Axis": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "particleZone": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "gravityControllerBody": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "UpdatePositionInSim": 0,
+        "fauxVel": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "startFade": 0.0,
+        "orbitCrashColors": 1,
+        "secondaryCenter": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "xSkew": 0.5
+      },
+      "transform_chain_child_to_root": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 13068
+          },
+          "m_LocalRotation": {
+            "x": -0.1802428513765335,
+            "y": -0.5167590379714966,
+            "z": -0.26901018619537354,
+            "w": 0.7925314903259277
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 180.00001525878906,
+            "y": 180.0,
+            "z": 180.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 28040
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24333
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20889
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22225
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 20785
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 8915
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": -3654.0,
+            "y": -6510.0,
+            "z": 4369.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 26299
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22832
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26546
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 25215
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 12256
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22662
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24426
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25718
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22075
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26483
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21840
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 20785
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 23268
+          }
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 10683
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 23651
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25215
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21772
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23344
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25055
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 24069
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 23835
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 21184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25576
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 22905
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25876
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 25028
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26822
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 26456
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 27052
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          }
+        }
+      ]
+    }
+  ],
+  "source_hash": "fc4969d4ad087f7f874bd360dd3e9e0399a7bc7c70529fb1bb85b13de92d3cdd",
+  "read_only": true
+}

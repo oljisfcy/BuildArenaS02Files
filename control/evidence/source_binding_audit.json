@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "machine_matches_selected": true,
+    "controller_matches_selected": true,
+    "config_matches_selected": true,
+    "official_reprepare_matches_runtime": true
+  },
+  "pass": true,
+  "run_id": "11127990-9747-4716-9cd5-9538189f1241"
+}

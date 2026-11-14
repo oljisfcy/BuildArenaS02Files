@@ -1,0 +1,22 @@
+{
+  "run": "packaged_repeat_v11_retry",
+  "run_id": "11127990-9747-4716-9cd5-9538189f1241",
+  "artifacts": {
+    "machine.bsg": "9b0944ec8c2b169041f9109883a1d225aaa6d9bd5b7636f194fc8861674cef51",
+    "build_history.json": "ca67ed912d057d9c3d19c07f047f47bcd87519db86abe65f6bd607b1f74c397d",
+    "build_history_full.json": "311a1067c15e1b7ce98377070cea0ccf193a289e6b1b1aacbb4bdfe9eeb94018",
+    "trajectory.csv": "08d5f3eadc72ba4b7ed9141657e917a15078df780d1b0ffffed9e8399c00f443",
+    "control/controller.py": "bc43a0dcafc73f3ddaa6d795ab13c3ff9fe14a0c8b1c983366adf6b9a9751e19",
+    "control/config.json": "29a9f4e73e51eb9b219695dacff1fede5e13ac7124e6989a4c4a136687498327"
+  },
+  "official_sources": {
+    "control/besiege_cli/run.py": "342a23fd1613b7c4cac80e14a058b38411666b45171e58e6598e3dc61f97dcc1",
+    "control/besiege_cli/machine.py": "7984c7cce5dc0e54257f1bce4b80be8327357564daa8300bf7b2bfb2a8fe61ed",
+    "control/besiege_cli/cli.py": "66d6a129e7805293fc77740c759030c73e2149961da5d6587b2aaf784fab804c",
+    "control/controller_sdk/client.py": "5263251b4b9d18f6c2d077a72e4f9bfff082cfe7dfc7451bf1ab308a4988ab81",
+    "control/controller_sdk/protocol.py": "3871235472b08c5605bdf5b44ce39b90047ede7efc8e62d9fcd6c8e8d8d7d3e2",
+    "blocks/block_registry.generated.toml": "dac049c6936948c9ed6e709922a12ada851bd43b266da23fb7234af2c39481e1"
+  },
+  "buildarena_commit": "083aae1b3aaecd3924528f3e492b368511d666f7",
+  "status": "Independent local checks passed; official S02 score unavailable."
+}

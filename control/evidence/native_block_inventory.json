@@ -1,0 +1,264 @@
+{
+  "source": "blocks/block_registry.generated.toml runtime_defs.<BlockID>.weight",
+  "inventory": [
+    {
+      "group": "payload",
+      "block_id": 0,
+      "count": 1,
+      "native_weight_each": 0.25,
+      "native_weight_total": 0.25,
+      "guids": [
+        "232d85ad-537c-4d09-a972-e23487fccd76"
+      ]
+    },
+    {
+      "group": "payload",
+      "block_id": 1,
+      "count": 1,
+      "native_weight_each": 0.5,
+      "native_weight_total": 0.5,
+      "guids": [
+        "564c9a72-d8ac-4b45-a398-1c1ece0d94c8"
+      ]
+    },
+    {
+      "group": "payload",
+      "block_id": 7,
+      "count": 3,
+      "native_weight_each": 0.5,
+      "native_weight_total": 1.5,
+      "guids": [
+        "9c26510f-7ab5-4b84-9a4d-ffd1fdb0739a",
+        "506a51c8-87b6-428a-b360-73ccbc1cf77f",
+        "e811d4be-9fe2-4524-a038-1f1894ad7e0c"
+      ]
+    },
+    {
+      "group": "payload",
+      "block_id": 27,
+      "count": 5,
+      "native_weight_each": 0.5,
+      "native_weight_total": 2.5,
+      "guids": [
+        "c4e518cf-80f9-4e6d-90d1-3d287a957dc0",
+        "1b411424-8872-4c1f-a175-1f596d8b93e0",
+        "6f538c75-1ad8-4b6f-ad20-c3aa80590480",
+        "918e16a6-0460-437b-b1dc-6313cef19e81",
+        "8069385e-96d7-4ee2-aded-f1b7508794cf"
+      ]
+    },
+    {
+      "group": "payload",
+      "block_id": 36,
+      "count": 5,
+      "native_weight_each": 5.0,
+      "native_weight_total": 25.0,
+      "guids": [
+        "b473a184-d60c-4e38-88f5-b5546e93066d",
+        "06cd725b-db9b-4d8e-9d4c-224e6b41cc01",
+        "5c843976-283e-418c-91f5-2a985953da6f",
+        "7403841f-e1e8-4dd5-89ac-0461a9fa6180",
+        "54c97e96-9e61-4f9f-81d1-b5d267f3f8e8"
+      ]
+    },
+    {
+      "group": "payload",
+      "block_id": 86,
+      "count": 1,
+      "native_weight_each": 0.25,
+      "native_weight_total": 0.25,
+      "guids": [
+        "e7e5b8f4-8dd6-4565-97c2-2cf666e91163"
+      ]
+    },
+    {
+      "group": "recovery",
+      "block_id": 1,
+      "count": 2,
+      "native_weight_each": 0.5,
+      "native_weight_total": 1.0,
+      "guids": [
+        "96d6cae3-00de-4a64-b149-16b152690426",
+        "c44116fa-70b2-4ce3-bbe6-f97b514dcd3e"
+      ]
+    },
+    {
+      "group": "recovery",
+      "block_id": 4,
+      "count": 1,
+      "native_weight_each": 0.5,
+      "native_weight_total": 0.5,
+      "guids": [
+        "31fd54b0-80f1-4d42-a44e-bf7613cac7ff"
+      ]
+    },
+    {
+      "group": "recovery",
+      "block_id": 7,
+      "count": 10,
+      "native_weight_each": 0.5,
+      "native_weight_total": 5.0,
+      "guids": [
+        "c8b60297-c175-4b94-a254-be1cbcf26198",
+        "7dff6d9b-a30d-4a54-8ced-43b9fd5c42ea",
+        "09590639-cd49-473e-acc5-cf73968f577a",
+        "30c5a8b4-2998-4a68-a757-2dd5bf609f9d",
+        "fa3c8dc6-6b86-42f5-9af2-a6f5d840c3ba",
+        "161ab112-7c50-4329-b238-83badab1e718",
+        "06e20455-b2d0-4d33-94e6-626ecd7d60e2",
+        "b0099e7b-ea5f-48fd-a610-afc3ef19fd91",
+        "a914be41-1744-40ee-a0a4-6432fc89eaa9",
+        "41c80b4a-4036-448c-8c4d-640f0bac08ec"
+      ]
+    },
+    {
+      "group": "recovery",
+      "block_id": 15,
+      "count": 29,
+      "native_weight_each": 0.3,
+      "native_weight_total": 8.7,
+      "guids": [
+        "f714ff33-b371-4ad4-90fc-5354852b42ac",
+        "f0974808-6739-4e3b-b25c-be84b078055d",
+        "1a09401f-5d07-419b-a55f-cb46a994cceb",
+        "d538e64a-88f2-4127-b337-06adb8de0fce",
+        "c1358561-f330-4768-80d4-5b86fb57f319",
+        "2d839636-4156-4d50-8bdc-1cb96d5928a4",
+        "6ae0cc31-c066-411f-b09e-78cb471d5dcd",
+        "42811700-691b-46ec-aa69-7cb0db509e82",
+        "613a451f-753b-4e2f-ab58-1b17f323bf79",
+        "afcac49e-6298-4557-826b-4707ace7ac82",
+        "90468d6e-d7e1-4282-b076-c4284998e520",
+        "fc17001b-63d1-44fb-923d-294dab9e4a85",
+        "f8b70235-f74f-439c-87c2-d34aab82c2a1",
+        "c51c8801-c09d-45f6-a28a-216f8b7700c1",
+        "ca1af301-6547-453b-8109-c8eeda5bde92",
+        "767670e1-2ffc-4d13-b9f1-ddb727ffdcf8",
+        "b7983a7b-9689-4d4c-803c-4056345cefd8",
+        "49c6a93e-f2bd-41bb-a693-ffe00092354b",
+        "208b2980-3e4d-4118-ae4a-43c0f021b6df",
+        "aaa412c2-b786-4f6b-b15c-871a5058a4b6",
+        "7f42a636-d150-4839-9fdf-ccab0036a6bc",
+        "6de55f3d-c337-43ea-b544-c1ff6340b99a",
+        "8298cfe3-3df2-460b-a261-213aacfd8048",
+        "e68d40c7-f45e-4006-8fce-79d6b0b68926",
+        "d0302deb-f0ad-4016-95e4-9c0e1e62713a",
+        "ca477958-818a-4282-9384-b72ae3932505",
+        "56f59640-61e9-4de7-a3c6-e4c28c50d4a9",
+        "ac5ccbf7-6879-46fb-997d-07ea1bac2dc3",
+        "e17596ac-9434-40a8-9bde-c9dd20019056"
+      ]
+    },
+    {
+      "group": "recovery",
+      "block_id": 25,
+      "count": 8,
+      "native_weight_each": 0.3,
+      "native_weight_total": 2.4,
+      "guids": [
+        "8b4f4806-c615-44ea-9767-850ac511ba8d",
+        "2a3661b0-c54a-43ef-8e4a-2d71997343cb",
+        "9e2ae488-583d-4c2c-b546-65f2ba4da5ee",
+        "03300217-a111-492f-b7b2-08bfe3e919e7",
+        "1c9ad3c5-684c-4b50-a40d-71bddccae301",
+        "5f39ba72-334e-4e3e-90c9-370247cde3ad",
+        "da681f96-80da-4783-b91d-8f96f8f64a5c",
+        "483831d2-14d6-4615-a08a-f0debaa3064a"
+      ]
+    },
+    {
+      "group": "recovery",
+      "block_id": 91,
+      "count": 64,
+      "native_weight_each": 0.2,
+      "native_weight_total": 12.8,
+      "guids": [
+        "b8e42d02-619f-4f89-9af6-76fb088a1281",
+        "1ee15724-7d6c-49f0-bbce-0fba8bedc8fe",
+        "95ff9d72-dd33-4f3a-ba73-a271b9209e61",
+        "8ca61854-79c9-4ece-93cc-2e2d35dbf8ed",
+        "52edfeb6-8ffb-4cb8-938b-aa2abdfedd99",
+        "d2cef31e-c9fb-4b66-949c-4c25614cba2f",
+        "668adbbe-62b6-4da6-ad5a-88248da79081",
+        "909dff60-7bc9-4207-bb99-e432a466ecbf",
+        "6e73677f-4dae-43d7-8e0f-163e2fc4c0bb",
+        "9785e992-0fa6-4fb9-8ab5-3f768ecf518a",
+        "e9f929c8-79f6-47eb-86c5-9cb066d7f16c",
+        "e95ad84e-ace0-4445-aeda-a58efe1bf1be",
+        "7c167a2f-7825-4e6a-b07a-4ee8421d9a4b",
+        "9d04ad3d-33e7-424e-a8bd-63403398233e",
+        "2534d5da-52c2-425c-a78a-d4dc64bcb407",
+        "22889419-a8cc-46d9-bfbd-2ffd0ff797f1",
+        "d1abc2da-b9d7-451e-a110-15d154f6e1d5",
+        "0ae43e5b-00d1-43f6-86fe-0f0229214fac",
+        "5e1f0c05-dce5-40a3-a9fe-81a098b003f0",
+        "1e98e927-1203-4387-825a-55fad8865ec7",
+        "acc3b91d-d74c-4360-a412-63b09cd6d088",
+        "929ce840-5cc6-4f95-8362-d87e80b3cd91",
+        "fac14db0-c898-4d6a-88b8-1eac88e613cc",
+        "b4f3cd49-a916-4453-a595-d8fea03ff4d7",
+        "6a6590b9-2c79-4a7f-bad0-9a9300fac586",
+        "7d2a83f4-0231-4f0f-8d1f-fc0e51adcd98",
+        "2370cacf-6b29-42e1-b1ca-f2503df1e898",
+        "accec20d-b81d-449f-bdfc-8abaf2e64208",
+        "f5335828-24d5-4e13-a4e0-56c8ca4b98a1",
+        "ab86cd19-d3ea-40ce-b9fa-cdb077a03324",
+        "f280a319-ffb4-48ca-8ce7-796d4b8d77b7",
+        "933940ae-f3a5-4adf-b105-fc92b6d29527",
+        "e4411f8b-4dd4-40fe-8726-0b3112a39961",
+        "787d6540-6b84-4d0a-bdca-c2b56d8aabac",
+        "777ffe96-1017-49b4-b1b3-4c9eef530939",
+        "7851c5cb-54d3-4125-ae6c-c9ce6cdfca4d",
+        "540506ae-8775-407b-abf2-6037d020b5fb",
+        "d49de64c-1a31-4139-8354-8c096d20fb11",
+        "e9d63a53-22d1-4b27-9a3f-5adf24add710",
+        "4a8fa872-4bf0-4134-ad6b-75cf20724578",
+        "176d2cf3-c793-4f40-812c-9acda12b08e0",
+        "dd08b3d1-3bfd-46f5-9ad9-3216985becfe",
+        "11690b8e-2854-484c-8dda-e1ec85a50fc8",
+        "2fd08b75-4b20-441c-bd8d-76a4bcbd40f7",
+        "4884fcf9-42cc-4e6f-9378-7f0352624305",
+        "80da352b-1931-44e5-b825-f1916dabb6a4",
+        "62f8d267-d663-4efb-a8b0-750ada0204ae",
+        "3aa31a46-f93d-40e9-9505-9f3668838440",
+        "1db58163-143d-443c-9774-f5652e6d8765",
+        "60610228-cc7c-4fe6-8e23-459134869be4",
+        "8c95ed7d-776a-459c-b6ba-9d17c06fbf73",
+        "2d060902-fafe-48ae-bd31-ea87c7b0543a",
+        "f603ed0e-725e-404f-9293-57811a454058",
+        "e18b4329-bed9-47f4-95e4-e8035d11eb17",
+        "a368cede-b082-4eb5-8978-345b27748616",
+        "88496f94-3ec6-425b-a248-013974a5213d",
+        "c2c2dc55-e41c-4363-aedb-29b2a2b6f400",
+        "a65b254b-11cb-4a06-8089-fe00d4634d35",
+        "772b2835-7006-4fa9-a7ed-bf1cb016b4dd",
+        "b16666f7-6d21-4e32-b0bb-ef782aebbc75",
+        "df32400a-5170-4c9c-8f91-7c2ed489d1e5",
+        "6b4b918d-5ebf-466e-8a44-fdab2a85522c",
+        "7ef8d66c-ad9b-4449-9210-9e7f25e26597",
+        "5dfe07bc-5efc-4b96-a5d9-e46e226cbd59"
+      ]
+    },
+    {
+      "group": "recovery",
+      "block_id": 101,
+      "count": 9,
+      "native_weight_each": 0.25,
+      "native_weight_total": 2.25,
+      "guids": [
+        "e3758b86-d35c-43e3-9a95-bbce82ed39a0",
+        "b172dad8-e59d-4be9-977b-ebc7cd3bd7a4",
+        "c5066253-0473-4992-b83f-7d3e46859a1b",
+        "4f55cf59-039c-4c74-bf70-fe7f4e1260d1",
+        "c7f85409-2ec5-4fdc-9bf7-52ef74896819",
+        "6f4c4c77-d7b6-4f82-8ccb-89dffcf5ec00",
+        "b0678890-6da4-4564-99b0-7bab5132232d",
+        "5052c7b2-dff2-47e7-8c09-136b16cf2f2e",
+        "f88e607c-759c-4342-bd4f-7a26b936da27"
+      ]
+    }
+  ],
+  "official_s02_mass_conversion": null,
+  "official_initial_propellant_inclusion": null,
+  "payload_propulsion_ids": []
+}

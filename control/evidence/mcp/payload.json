@@ -1,0 +1,149 @@
+[
+  {
+    "name": "create_machine_lifespan",
+    "arguments": {
+      "machine_name": "S7_RootPayload30",
+      "note": "One passive native-weight-30 root payload, carrier-side decoupler."
+    }
+  },
+  {
+    "name": "load_machine_from_history",
+    "arguments": {
+      "history_json": "C:\\Users\\oljisfcy\\Documents\\ChatGPT\\Besiege\\mission_s02\\payload30_root_20261113\\machines\\S7_PayloadRoot_Seed_261113_200946\\S7_PayloadRoot_Seed_261113_200946.json"
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f1",
+      "new_block": "Double Wooden Block",
+      "note": "Passive payload arm."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f2",
+      "new_block": "Double Wooden Block",
+      "note": "Passive payload arm."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f3",
+      "new_block": "Double Wooden Block",
+      "note": "Passive payload arm."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 1,
+      "face": "f4",
+      "new_block": "Grabber",
+      "note": "Payload internal restraint: never released or actively commanded."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 8,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Passive payload mass, permanently retained by payload grabber."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 2,
+      "face": "f9",
+      "new_block": "Grabber",
+      "note": "Payload internal restraint: no orbital actuation."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 10,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Passive payload mass."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 5,
+      "face": "f9",
+      "new_block": "Grabber",
+      "note": "Payload internal restraint: no orbital actuation."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 12,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Passive payload mass."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 6,
+      "face": "f9",
+      "new_block": "Grabber",
+      "note": "Payload internal restraint: no orbital actuation."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 14,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Passive payload mass."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 7,
+      "face": "f9",
+      "new_block": "Grabber",
+      "note": "Payload internal restraint: no orbital actuation."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 16,
+      "face": "f0",
+      "new_block": "Boulder",
+      "note": "Passive payload mass."
+    }
+  },
+  {
+    "name": "attach_block_to",
+    "arguments": {
+      "base_block": 2,
+      "face": "f2",
+      "new_block": "Armor Plate Small",
+      "note": "Passive payload armor; completes native declared weight 30.0."
+    }
+  },
+  {
+    "name": "get_machine_summary",
+    "arguments": {}
+  },
+  {
+    "name": "close_machine_lifespan",
+    "arguments": {}
+  }
+]
